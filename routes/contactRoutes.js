@@ -7,6 +7,7 @@ const {
   addContacts,
   deleteContact,
 } = require("../controllers/contactsController");
+
 const { protectedRoute } = require("../middleware/authMiddleware");
 
 router
